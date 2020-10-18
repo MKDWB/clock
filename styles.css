@@ -1,0 +1,60 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    position: relative;
+    margin: 0 5px;
+    width: 200px;
+    height: 420px;
+}
+
+.clock div p {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    z-index: 1;
+    font-size: 80px;
+    border: none;
+    box-shadow: 0px 34px 45px 0px rgba(0,0,0,0.56);
+}
+
+.clock div p:first-child {
+    border-radius: 20px 20px 0 0;
+}
+
+.clock div p:last-child {
+    font-size: 30px;
+    height: 80px;
+    background-color: orange;
+    border-radius: 0 0 20px 20px;
+}
+
+.clock div:last-child p {
+    background-color: burlywood;
+    color: white;
+}
+
+.clock div:last-child p:last-child {
+    background-color: burlywood;
+    color: white;
+}
