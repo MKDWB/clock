@@ -1,3 +1,2 @@
-# clock
-digital clock 
+link 
 https://poluninme.github.io/clock/
